@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Report1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/pupple"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Report1_View02"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/green"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/kyungbok"
+            android:gravity="center"
+            android:text="경복대학교" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/Yellow"
+            android:gravity="center"
+            android:paddingLeft="100dp"
+            android:text="Android Programming" />
+    </LinearLayout>
+</LinearLayout>

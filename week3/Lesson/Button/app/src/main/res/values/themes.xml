@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Button" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/pupple_500</item>
+        <item name="colorPrimaryVariant">@color/pupple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Button" parent="Base.Theme.Button" />
+</resources>

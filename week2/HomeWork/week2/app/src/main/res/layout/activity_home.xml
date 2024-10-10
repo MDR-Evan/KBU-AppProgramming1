@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/pupple"
+            android:gravity="center"
+            android:text="2주차 과제"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Report1_Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View 02" />
+
+            <Button
+                android:id="@+id/Report2_Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="온도 변환기" />
+
+            <Button
+                android:id="@+id/Report3_Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="나이 계산기" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
