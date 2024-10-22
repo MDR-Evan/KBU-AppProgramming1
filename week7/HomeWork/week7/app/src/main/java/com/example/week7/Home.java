@@ -32,13 +32,13 @@ public class Home extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-//
-//        Report3_button.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(Home.this, Report3.class);
-//                startActivity(intent);
-//            }
-//        });
+
+        Report3_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Home.this, Report3.class);
+                startActivity(intent);
+            }
+        });
     }
 }
