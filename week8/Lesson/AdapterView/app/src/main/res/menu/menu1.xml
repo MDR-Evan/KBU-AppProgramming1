@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu1"
+            android:title="Dropdown(Single) Type"
+            android:checked="true" />
+        <item
+            android:id="@+id/menu2"
+            android:title="Dropdown(Dropdown) Type" />
+        <item
+            android:id="@+id/menu3"
+            android:title="Dialog(Single) Type" />
+        <item
+            android:id="@+id/menu4"
+            android:title="Dialog(Dialog) Type" />
+    </group>
+</menu>
