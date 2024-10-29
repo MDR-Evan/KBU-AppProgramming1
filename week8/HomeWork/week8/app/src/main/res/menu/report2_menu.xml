@@ -2,16 +2,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/item1"
+            android:id="@+id/menu1"
             android:title="배열 사용" />
         <item
-            android:id="@+id/item2"
+            android:id="@+id/menu2"
             android:title="arrays.xml 사용" />
         <item
-            android:id="@+id/item3"
+            android:id="@+id/menu3"
             android:title="list 사용" />
         <item
-            android:id="@+id/item4"
+            android:id="@+id/menu4"
             android:title="createFromResource 사용" />
     </group>
 </menu>
