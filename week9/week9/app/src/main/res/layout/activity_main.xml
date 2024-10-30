@@ -41,9 +41,10 @@
             android:id="@+id/notempty"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:visibility="invisible"
             android:layout_margin="10dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="invisible">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -85,11 +86,22 @@
                     android:layout_weight="1"
                     android:hint="학과를 선택하세요" />
 
+                <TextView
+                    android:id="@+id/classname_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:background="#0000ff"
+                    android:gravity="center"
+                    android:text="기타"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+
                 <Spinner
                     android:id="@+id/classname_spinner"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                    android:layout_weight="2" />
             </LinearLayout>
 
             <TextView
@@ -98,6 +110,7 @@
                 android:text="학년" />
 
             <RadioGroup
+                android:id="@+id/group"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
@@ -138,12 +151,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
                 <Button
                     android:id="@+id/insert_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="학생 신상 정보 입력" />
+
                 <Button
                     android:id="@+id/delete_button"
                     android:layout_width="match_parent"
@@ -151,10 +166,20 @@
                     android:layout_weight="1"
                     android:text="학생 정보 삭제" />
             </LinearLayout>
-            <TextView
+
+            <ListView
+                android:id="@+id/result_listview"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#00FDFE" />
         </LinearLayout>
+
+        <ListView
+            android:id="@+id/mainlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="#008744"
+            android:visibility="invisible" />
     </FrameLayout>
 </LinearLayout>
