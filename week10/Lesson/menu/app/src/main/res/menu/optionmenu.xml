@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:title="Actionbar Background Color Change" />
+    <item
+        android:id="@+id/item2"
+        android:title="TextView Change">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/code1"
+                    android:checked="true"
+                    android:title="XML Write" />
+                <item
+                    android:id="@+id/code2"
+                    android:title="JAVA Code Write" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:title="EditText Change">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/itemSizePlus"
+                    android:checked="true"
+                    android:title="TextSize Plus" />
+
+                <item
+                    android:id="@+id/itemSizeMinus"
+                    android:title="TextSize Minus" />
+
+                <item
+                    android:id="@+id/itemSizeDefault"
+                    android:title="TextSize Default" />
+            </group>
+        </menu>
+    </item>
+</menu>

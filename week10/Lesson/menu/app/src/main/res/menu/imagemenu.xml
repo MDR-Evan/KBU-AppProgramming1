@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/change"
+        android:title="Image Change"/>
+    <item
+        android:id="@+id/rotate"
+        android:title="45° Rotate"/>
+    <item
+        android:id="@+id/scale"
+        android:title="Scale Up 2x"/>
+    <item
+        android:id="@+id/reset"
+        android:title="Reset" />
+</menu>
