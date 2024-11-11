@@ -1,0 +1,10 @@
+#Sun Oct 27 11:53:52 KST 2024
+base.0=D\:\\GitHub\\KBU-AppProgramming1\\week3\\Homework\\week3\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=D\:\\GitHub\\KBU-AppProgramming1\\week3\\Homework\\week3\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=D\:\\GitHub\\KBU-AppProgramming1\\week3\\Homework\\week3\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=5/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

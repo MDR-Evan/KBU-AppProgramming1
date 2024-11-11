@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="green">#00FF00</color>
+    <color name="pupple_200">#ffbb86fc</color>
+    <color name="pupple_500">#ff6200fc</color>
+    <color name="pupple_700">#ff3700b3</color>
+    <color name="red">#ff0000</color>
+    <color name="teal_200">#ff03dac5</color>
+    <color name="teal_700">#ff018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Week3_Report</string>
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/pupple_500</item>
+        <item name="colorPrimaryVariant">@color/pupple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        
+    </style>
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication"/>
+</resources>

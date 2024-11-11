@@ -1,0 +1,168 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature
+11-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.telephony"
+12-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:6:9-50
+13        android:required="false" />
+13-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:7:9-33
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:9:5-67
+15-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.CALL_PHONE" />
+16-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:10:5-69
+16-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:10:22-66
+17
+18    <permission
+18-->[androidx.core:core:1.13.0] C:\Users\likek\.gradle\caches\transforms-4\42dfdf811721b94244c28f65a2afec29\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+19        android:name="com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.13.0] C:\Users\likek\.gradle\caches\transforms-4\42dfdf811721b94244c28f65a2afec29\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.13.0] C:\Users\likek\.gradle\caches\transforms-4\42dfdf811721b94244c28f65a2afec29\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.13.0] C:\Users\likek\.gradle\caches\transforms-4\42dfdf811721b94244c28f65a2afec29\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.13.0] C:\Users\likek\.gradle\caches\transforms-4\42dfdf811721b94244c28f65a2afec29\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:12:5-43:19
+25        android:allowBackup="true"
+25-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:13:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.13.0] C:\Users\likek\.gradle\caches\transforms-4\42dfdf811721b94244c28f65a2afec29\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+27        android:dataExtractionRules="@xml/data_extraction_rules"
+27-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:14:9-65
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:fullBackupContent="@xml/backup_rules"
+30-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:15:9-54
+31        android:icon="@drawable/kyungbok"
+31-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:16:9-42
+32        android:label="@string/app_name"
+32-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:17:9-41
+33        android:roundIcon="@drawable/kyungbok"
+33-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:18:9-47
+34        android:supportsRtl="true"
+34-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:19:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.MyApplication" >
+36-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:20:9-51
+37        <activity
+37-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:22:9-29:20
+38            android:name="com.example.myapplication.Home"
+38-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:23:13-33
+39            android:exported="true" >
+39-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:24:13-36
+40            <intent-filter>
+40-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:25:13-28:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:26:17-69
+41-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:26:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:27:17-77
+43-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:27:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:31:9-33:39
+47            android:name="com.example.myapplication.Report4"
+47-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:32:13-36
+48            android:exported="true" />
+48-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:33:13-36
+49        <activity
+49-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:34:9-36:39
+50            android:name="com.example.myapplication.Report3"
+50-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:35:13-36
+51            android:exported="true" />
+51-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:36:13-36
+52        <activity
+52-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:37:9-39:39
+53            android:name="com.example.myapplication.Report2"
+53-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:38:13-36
+54            android:exported="true" />
+54-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:39:13-36
+55        <activity
+55-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:40:9-42:39
+56            android:name="com.example.myapplication.Report1"
+56-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:41:13-36
+57            android:exported="true" />
+57-->D:\GitHub\KBU-AppProgramming1\week3\Homework\week3\app\src\main\AndroidManifest.xml:42:13-36
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.3.0] C:\Users\likek\.gradle\caches\transforms-4\51f1927f6706bb4e824223b170abb02f\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.3.0] C:\Users\likek\.gradle\caches\transforms-4\51f1927f6706bb4e824223b170abb02f\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+61            android:authorities="com.example.myapplication.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.3.0] C:\Users\likek\.gradle\caches\transforms-4\51f1927f6706bb4e824223b170abb02f\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\likek\.gradle\caches\transforms-4\51f1927f6706bb4e824223b170abb02f\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.3.0] C:\Users\likek\.gradle\caches\transforms-4\51f1927f6706bb4e824223b170abb02f\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\likek\.gradle\caches\transforms-4\51f1927f6706bb4e824223b170abb02f\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\likek\.gradle\caches\transforms-4\51f1927f6706bb4e824223b170abb02f\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\likek\.gradle\caches\transforms-4\fab565b32d1caf7d32cc0e9c5a768a04\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\likek\.gradle\caches\transforms-4\fab565b32d1caf7d32cc0e9c5a768a04\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\likek\.gradle\caches\transforms-4\fab565b32d1caf7d32cc0e9c5a768a04\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+71                android:value="androidx.startup" />
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+72        </provider>
+73
+74        <receiver
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+75            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+76            android:directBootAware="false"
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+77            android:enabled="true"
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+78            android:exported="true"
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+79            android:permission="android.permission.DUMP" >
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+81                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+84                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+87                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+90                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\likek\.gradle\caches\transforms-4\7c6c24dcca5059c7b3ce34791d5d98cd\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+91            </intent-filter>
+92        </receiver>
+93    </application>
+94
+95</manifest>
