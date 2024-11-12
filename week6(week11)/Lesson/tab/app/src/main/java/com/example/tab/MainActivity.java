@@ -1,6 +1,7 @@
 package com.example.tab;
 
 import android.os.Bundle;
+<<<<<<< Updated upstream
 import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -11,6 +12,8 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+=======
+>>>>>>> Stashed changes
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,6 +21,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+<<<<<<< Updated upstream
 import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
@@ -25,12 +29,16 @@ public class MainActivity extends AppCompatActivity {
     FrameLayout frameLayout;
     WebView webView;
     private final double Official = 3.305785;
+=======
+public class MainActivity extends AppCompatActivity {
+>>>>>>> Stashed changes
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+<<<<<<< Updated upstream
         layout1 = findViewById(R.id.tab1);
         layout2 = findViewById(R.id.tab2);
         frameLayout = findViewById(R.id.framelayout);
@@ -137,5 +145,7 @@ public class MainActivity extends AppCompatActivity {
         layout1.setVisibility(i == 0 ? View.VISIBLE : View.INVISIBLE);
         layout2.setVisibility(i == 1 ? View.VISIBLE : View.INVISIBLE);
         webView.setVisibility(i == 2 ? View.VISIBLE : View.INVISIBLE);
+=======
+>>>>>>> Stashed changes
     }
 }
