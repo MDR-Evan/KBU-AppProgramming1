@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:id="@+id/tab2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2FFF8D"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="평이나 면적을 입력하세요."
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/area_edit1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/area_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="계산 결과가 없습니다." />
+
+            <Button
+                android:id="@+id/area_button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="평을 제곱 미터로 변환" />
+
+            <Button
+                android:id="@+id/area_button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="제곱 미터를 평으로 변환" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
