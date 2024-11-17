@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id confirm_button
+id female_radio_button
+id fragment_container
+id male_radio_button
+id name_edit_text
+layout activity_main
+layout dialog_input
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Newfragment2
+style Theme.Newfragment2
+xml backup_rules
+xml data_extraction_rules
