@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue=""
+        android:key="name"
+        android:summary="당신의 이름은 ?"
+        android:title="이름" />
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:key="id"
+        android:summary="당신의 ID는 ?"
+        android:title="ID" />
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:key="pw"
+        android:summary="당신의 비밀번호는 ?"
+        android:title="PassWord" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="auto"
+        android:title="자동 로그인 할까요 ?" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:dialogTitle="당신의 성별은 ?"
+        android:entries="@array/gender"
+        android:entryValues="@array/gender_values"
+        android:key="gender"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="당신의 성별은 ?" />
+
+    <EditTextPreference
+        android:defaultValue="0"
+        android:key="age"
+        android:summary="당신의 나이는 ?"
+        android:title="나이" />
+
+    <PreferenceCategory android:title="배경색 지정">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="color"
+            android:summary="배경색을 지정합니다."
+            android:title="배경색 사용" />
+        <ListPreference
+            android:defaultValue="0"
+            android:dependency="color"
+            android:entries="@array/background_color"
+            android:entryValues="@array/color_values"
+            android:key="backgrounder"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="배경색 설정" />
+    </PreferenceCategory>
+</PreferenceScreen>
