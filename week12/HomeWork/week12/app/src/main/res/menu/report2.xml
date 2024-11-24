@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Report2_item1"
+            android:checkable="false"
+            android:title="환경 설정1" />
+
+        <item
+            android:id="@+id/Report2_item2"
+            android:checkable="false"
+            android:title="환경 설정2" />
+
+        <item
+            android:id="@+id/Report2_item3"
+            android:checkable="false"
+            android:title="환경 설정3" />
+
+        <item
+            android:id="@+id/Report2_item4"
+            android:checkable="false"
+            android:title="환경 설정4" />
+    </group>
+</menu>

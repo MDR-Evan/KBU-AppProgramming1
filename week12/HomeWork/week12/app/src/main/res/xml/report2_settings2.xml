@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference
+        android:defaultValue="0"
+        android:dialogTitle="알림음"
+        android:entries="@array/AlertSound_entries"
+        android:entryValues="@array/AlertSound_values"
+        android:key="AlertSound"
+        android:negativeButtonText="CANCEL"
+        android:title="알림음" />
+
+    <MultiSelectListPreference
+        android:defaultValue=""
+        android:dialogTitle="취미"
+        android:key="hobby_preferences"
+        android:negativeButtonText="CANCEL"
+        android:positiveButtonText="OK"
+        android:title="취미 선택"
+        android:summary="원하는 취미를 선택하세요."
+        android:entries="@array/Hobby_entries"
+        android:entryValues="@array/Hobby_values" />
+</PreferenceScreen>

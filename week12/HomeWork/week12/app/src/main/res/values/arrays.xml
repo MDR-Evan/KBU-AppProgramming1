@@ -1,0 +1,48 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="AlertSound_entries">
+        <item>카톡</item>
+        <item>카톡왔음</item>
+        <item>카톡카톡</item>
+        <item>카카오톡</item>
+    </string-array>
+
+    <string-array name="AlertSound_values">
+        <item>카톡</item>
+        <item>카톡왔음</item>
+        <item>카톡카톡</item>
+        <item>카카오톡</item>
+    </string-array>
+
+    <string-array name="Hobby_entries">
+        <item>수영</item>
+        <item>독서</item>
+        <item>등산</item>
+        <item>캠핑</item>
+        <item>컴퓨터게임</item>
+        <item>쇼핑</item>
+        <item>미식</item>
+        <item>드라이브</item>
+    </string-array>
+
+    <string-array name="Hobby_values">
+        <item>수영</item>
+        <item>독서</item>
+        <item>등산</item>
+        <item>캠핑</item>
+        <item>컴퓨터게임</item>
+        <item>쇼핑</item>
+        <item>미식</item>
+        <item>드라이브</item>
+    </string-array>
+</resources>
