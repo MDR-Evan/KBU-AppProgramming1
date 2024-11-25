@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Week12"
         tools:targetApi="31">
         <activity
+            android:name=".Report2_Settings4"
+            android:exported="true" />
+        <activity
+            android:name=".Report2_Settings3"
+            android:exported="true" />
+        <activity
             android:name=".Report2_Settings2"
             android:exported="true" />
         <activity

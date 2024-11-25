@@ -45,4 +45,28 @@
         <item>미식</item>
         <item>드라이브</item>
     </string-array>
+
+    <string-array name="Rington_entries">
+        <item>Aquila</item>
+        <item>Argo Navis</item>
+        <item>Atria</item>
+        <item>Backroad</item>
+        <item>Beat Plucker</item>
+        <item>Bell Phone</item>
+        <item>Bentley Dubs</item>
+        <item>Big Easy</item>
+        <item>Bird Loop</item>
+    </string-array>
+
+    <string-array name="Rington_values">
+        <item>Aquila</item>
+        <item>Argo Navis</item>
+        <item>Atria</item>
+        <item>Backroad</item>
+        <item>Beat Plucker</item>
+        <item>Bell Phone</item>
+        <item>Bentley Dubs</item>
+        <item>Big Easy</item>
+        <item>Bird Loop</item>
+    </string-array>
 </resources>

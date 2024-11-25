@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="update"
+        android:title="자동 시스템 업데이트" />
+
+    <PreferenceCategory android:title="디버깅">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="debuging"
+            android:summary="USB가 연결된 경우 디버그 모드 사용"
+            android:title="USB 디버깅" />
+        <CheckBoxPreference
+            android:defaultValue="0"
+            android:dependency="debuging"
+            android:key="USBcheck"
+            android:title="USB를 통해 설치된 앱 확인"
+            android:summary="ADB/ADT를 통해 설치된 앱의 유해한 동작이 있는지 확인"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

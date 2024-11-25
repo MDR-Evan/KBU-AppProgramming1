@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="update"
+        android:title="자동 시스템 업데이트" />
+    <PreferenceScreen
+        android:defaultValue="false"
+        android:key="network"
+        android:title="이동통신망">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="loaming"
+            android:summary="로밍 시 데이터 서비스에 연결"
+            android:title="데이터 로밍" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="LTE"
+            android:summary="LTE 서비스를 사용하여 음성 및 기타 통신을 개선할 수 있습니다. (권장)"
+            android:title="향상된 4G LTE 모드" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:defaultValue="false"
+        android:key="admin"
+        android:title="네트워크 운영자"
+        android:summary="네트워크 운영자 선택">
+    </PreferenceScreen>
+
+</PreferenceScreen>

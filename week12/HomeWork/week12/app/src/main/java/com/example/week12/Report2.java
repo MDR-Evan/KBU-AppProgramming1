@@ -43,12 +43,13 @@ public class Report2 extends AppCompatActivity {
             intent = new Intent(getBaseContext(), Report2_Settings1.class);
         } else if (check == R.id.Report2_item2) {
             intent = new Intent(getBaseContext(), Report2_Settings2.class);
+        } else if (check == R.id.Report2_item3) {
+            intent = new Intent(getBaseContext(), Report2_Settings3.class);
+        } else {
+            intent = new Intent(getBaseContext(), Report2_Settings4.class);
         }
 
-        if (intent != null) {
-            startActivity(intent);
-        }
-
+        startActivity(intent);
         item.setChecked(true);
         return true;
     }
