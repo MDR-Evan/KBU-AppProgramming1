@@ -6,7 +6,7 @@
         android:title="Input your name" />
 
     <ListPreference
-        android:defaultValue="0"
+        android:defaultValue="#000000"
         android:dialogTitle="Select your text color?"
         android:entries="@array/TextColor_entries"
         android:entryValues="@array/TextColor_values"
@@ -14,16 +14,18 @@
         android:title="Select your text color?" />
 
     <CheckBoxPreference
-        android:defaultValue="0"
+        android:defaultValue="false"
+        android:key="boldText"
         android:title="Display bold text?"
         android:summary="Select whether the app display bold text." />
 
     <ListPreference
-        android:defaultValue="0"
+        android:defaultValue="#000000"
         android:dialogTitle="Select your screen color?"
         android:entries="@array/ScreenColor_entries"
         android:entryValues="@array/ScreenColor_values"
         android:key="ScreenColor"
         android:negativeButtonText="CANCLE"
         android:title="Select your screen color?" />
+
 </PreferenceScreen>

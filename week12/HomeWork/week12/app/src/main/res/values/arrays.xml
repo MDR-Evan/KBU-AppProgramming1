@@ -78,10 +78,10 @@
     </string-array>
 
     <string-array name="TextColor_values">
-        <item>Red(빨간색)</item>
-        <item>Blue(파랑색)</item>
-        <item>Green(녹색)</item>
-        <item>Black(검정색)</item>
+        <item>#ff0000</item>
+        <item>#0000ff</item>
+        <item>#00ff00</item>
+        <item>#000000</item>
     </string-array>
 
     <string-array name="ScreenColor_entries">
@@ -92,9 +92,9 @@
     </string-array>
 
     <string-array name="ScreenColor_values">
-        <item>Red(빨간색)</item>
-        <item>Blue(파랑색)</item>
-        <item>Green(녹색)</item>
-        <item>Black(검정색)</item>
+        <item>#ff0000</item>
+        <item>#0000ff</item>
+        <item>#00ff00</item>
+        <item>#000000</item>
     </string-array>
 </resources>
