@@ -46,7 +46,7 @@ public class Report1 extends AppCompatActivity {
 
     private void GameSettingDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(Report1.this);
-        View dialog = View.inflate(this, R.layout.gamesetting, null);
+        View dialog = View.inflate(this, R.layout.activity_report1_gamesetting, null);
         TextView soundText = dialog.findViewById(R.id.Report1_soundText),
                  brightnessText = dialog.findViewById(R.id.Report1_brightnessText),
                  difficultyText = dialog.findViewById(R.id.Report1_difficultyText);

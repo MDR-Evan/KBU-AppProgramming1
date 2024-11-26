@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue=""
+        android:key="Input_name"
+        android:title="Input your name" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:dialogTitle="Select your text color?"
+        android:entries="@array/TextColor_entries"
+        android:entryValues="@array/TextColor_values"
+        android:key="TextColor"
+        android:title="Select your text color?" />
+
+    <CheckBoxPreference
+        android:defaultValue="0"
+        android:title="Display bold text?"
+        android:summary="Select whether the app display bold text." />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:dialogTitle="Select your screen color?"
+        android:entries="@array/ScreenColor_entries"
+        android:entryValues="@array/ScreenColor_values"
+        android:key="ScreenColor"
+        android:negativeButtonText="CANCLE"
+        android:title="Select your screen color?" />
+</PreferenceScreen>
