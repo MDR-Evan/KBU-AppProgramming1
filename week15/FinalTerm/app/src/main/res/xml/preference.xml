@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue=""
+        android:key="name"
+        android:summary="당신의 이름은 ?"
+        android:title="이름" />
+    <EditTextPreference
+        android:defaultValue=""
+        android:key="image"
+        android:title="사진" />
+    <EditTextPreference
+        android:defaultValue=""
+        android:key="age"
+        android:summary="당신의 나이는 ?"
+        android:title="나이" />
+    <EditTextPreference
+        android:defaultValue=""
+        android:key="job"
+        android:summary="당신의 직업은 ?"
+        android:title="직업" />
+    <ListPreference
+        android:defaultValue="0"
+        android:dialogTitle="버튼의 색상을 선택하세요 ?"
+        android:entries="@array/color"
+        android:entryValues="@array/color_values"
+        android:key="color"
+        android:title="버튼의 색상은 ?" />
+    <CheckBoxPreference
+        android:defaultValue=""
+        android:key="background"
+        android:title="배경 이미지 적용할까요 ?" />
+</PreferenceScreen>
