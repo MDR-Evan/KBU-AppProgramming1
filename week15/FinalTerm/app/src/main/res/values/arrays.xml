@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="member">
-        <item>김진용</item>
+        <item>KimJinYong</item>
         <item>김정</item>
         <item>구승모</item>
         <item>오동우</item>
@@ -31,7 +31,7 @@
     </string-array>
 
     <string-array name="job">
-        <item>대학생</item>
+        <item>Student</item>
         <item>의사</item>
         <item>교사</item>
         <item>회사원</item>

@@ -14,15 +14,11 @@ import java.util.List;
 public class CustomArrayAdapter2 extends ArrayAdapter<Member2> {
     private final Context context;
     private final List<Member2> members;
-    private final Typeface customFont;
 
     public CustomArrayAdapter2(Context context, List<Member2> members) {
         super(context, R.layout.activity_list_item2, members);
         this.context = context;
         this.members = members;
-
-        // 외부 TTF 파일 로드
-        customFont = Typeface.createFromAsset(context.getAssets(), "fonts/custom_font.ttf");
     }
 
     @Override
@@ -45,11 +41,6 @@ public class CustomArrayAdapter2 extends ArrayAdapter<Member2> {
         tvName.setText(member.getName());
         tvAge.setText("(" + member.getAge() + "세)");
         tvJob.setText(member.getJob());
-
-        // 폰트 설정
-        tvName.setTypeface(customFont);
-        tvAge.setTypeface(customFont);
-        tvJob.setTypeface(customFont);
 
         return convertView;
     }
